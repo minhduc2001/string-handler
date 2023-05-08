@@ -4,8 +4,8 @@
   "description": "dealing with string-related problems",
   "main": "src/index.js",
   "scripts": {
-    "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
-    "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules"
+    "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --stats=errors-only",
+    "build": "node_modules/webpack/bin/webpack.js --mode production --progress --stats=errors-only"
   },
   "repository": {
     "type": "git",
