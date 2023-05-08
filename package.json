@@ -1,0 +1,30 @@
+{
+  "name": "string-handler",
+  "version": "1.0.0",
+  "description": "dealing with string-related problems",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
+    "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhduc2001/string-handler.git"
+  },
+  "keywords": [
+    "string",
+    "string-handler",
+    "bad-word"
+  ],
+  "author": "minhduc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhduc2001/string-handler/issues"
+  },
+  "homepage": "https://github.com/minhduc2001/string-handler#readme",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.0"
+  }
+}
